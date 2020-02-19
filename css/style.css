@@ -68,7 +68,8 @@ div {
       overflow: hidden; }
     #header .site-name #logo {
       font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
-      color: #555; }
+      color: #555;
+      margin-bottom: 50px; }
       #header .site-name #logo span, #header .site-name #logo:hover {
         color: #777; }
     #header .site-name .description {
@@ -402,22 +403,22 @@ blockquote, .stressed {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 2.5em 0;
-  padding: 0 0 0 50px;
+  padding: 0;
   color: #555;
   border-left: none; }
 
-blockquote::before, .stressed-quote::before {
-  content: "\201C";
-  display: block;
-  font-family: times;
-  font-style: normal;
-  font-size: 48px;
-  color: #444;
-  font-weight: bold;
-  line-height: 30px;
-  margin-left: -50px;
-  position: absolute; }
-
+/*blockquote::before,.stressed-quote::before {
+    content: "\201C";
+    display: block;
+    font-family: times;
+    font-style: normal;
+    font-size: 48px;
+    color: #444;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: -50px;
+    position: absolute;
+}*/
 strong, b, em {
   font-weight: bold; }
 
